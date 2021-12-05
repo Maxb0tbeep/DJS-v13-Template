@@ -1,12 +1,8 @@
-# Hello! My name is Maxb0tbeep, I created this discord.js v13 bot template with the intention to make creating discord bots much easier! To set up your bot, please carefully follow the instructions. IF YOU SKIP THEM THE BOT WILL NOT WORK
+# Please read the following:
+
+## Hello! My name is Maxb0tbeep, I created this discord.js v13 bot template with the intention to make creating discord bots much easier! To set up your bot, please carefully follow the instructions. IF YOU SKIP THEM THE BOT WILL NOT WORK
 
 ## Reminder: this is to get you started in bot developement, not a complete guide, please don't expect that
-
-### REQUIREMENTS:
-1. A computer
-2. A bit of JS knowledge or other language but it will be harder
-3. A discord account (duh)
-4. Probably administrator permissions on your computer
 
 1. Install Node.JS, this is how you are able to run javascript on your computer. 
     1. [Download](https://nodejs.org/en/download/)
@@ -25,7 +21,7 @@
     1. In your console, write "npm install discord.js fs nodemon" to install the packages we need, you may need administrator permissions on your computer to do this.
 
 5. Clone this repo, using github desktop or by typing these commands into your console
-    1. "cd <location you want to clone to.>"
+    1. "cd "path to parent folder of where you want the bot to go" "
     2. "git clone https://"
 
 6. Create your bot account
