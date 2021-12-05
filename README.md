@@ -23,6 +23,7 @@
 5. Clone this repo, using github desktop or by typing these commands into your console
     1. "cd "path to parent folder of where you want the bot to go" "
     2. "git clone https://github.com/Maxb0tbeep/DJS-v13-Template.git"
+    3. This will download the code to run the bot.
 
 6. Create your bot account
     1. Go to the [Discord Dev Portal](https://discord.com/developers/applications)
