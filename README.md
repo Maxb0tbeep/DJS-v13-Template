@@ -43,7 +43,7 @@
         1. Note: It's really important to keep this token secret, if anyone gets it, they can control your bot. If it does get leaked, make sure you regenerate it.
     3. Go to src/Data/config.json in your project and replace "token" with the actual token, Ex: "OTE2ODM5MjQwOTkyNjkwMTc3.Yav_FQ.ppYITZMtD3FLVke19O_CI0eKPI4" (keep the quotes and the comma at the end)
     4. In that config file, replace the prefix to whatever you want to write before commands Ex: "!" (make sure you dont have any spaces, and keep the quotes)
-    5. If you haven't already, rename the project folder to the name of your bot.
+    5. If you haven't already, rename the "DJS-v13-Template" folder to the name of your bot.
     6. To change the status of your bot, go in src/Events/ready.js and change the 6th line
     7. In the help command, it says "Learn how to use <Your bot's name>" just change this to your bot's name (src/Commands/help.js)
     8. You can also change the image by replacing "https://cdn.discordapp.com/attachments/773631079428653099/916834260604842049/New_Project.png" on line 14 to a link to an image. (If you aren't sure how to get an image's link, send your image in a discord channel and right click it -> Copy Link)
