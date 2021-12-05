@@ -1,0 +1,11 @@
+{
+  "name": "rename-me",
+  "version": "1.0.0",
+  "description": "tHANKS MAxB0tbEEP fOR maAKING thIS TeMPLATE",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "author": "Maxb0tbeep"
+}

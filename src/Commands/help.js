@@ -1,0 +1,32 @@
+const Discord = require('discord.js');
+const Command = require('../Structures/Command.js');
+const fs = require("fs");
+
+module.exports = new Command({
+    name: "help",
+    description: "Get help with the bot.",
+
+    async run(message, args, client){
+        const helpEmbed = new Discord.MessageEmbed()
+            .setTitle("Help")
+            .setDescription("Learn how to use <Your bot's name> Prefix is " + client.prefix)
+            .setColor("#4e06dd")
+            .setThumbnail("https://cdn.discordapp.com/attachments/773631079428653099/916834260604842049/New_Project.png")
+            .setTimestamp()
+
+            fs.readdirSync("./src/Commands")
+			    .filter(file => file.endsWith(".js"))
+			    .forEach(file => {
+                    /**
+                     * @type {Command}
+                     */
+                    const command = require(`../Commands/${file}`);
+                    helpEmbed.addField(command.name, command.description, true);
+		    });
+
+        
+        message.reply({embeds: [helpEmbed]});
+    }
+
+    
+})
