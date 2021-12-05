@@ -25,7 +25,7 @@
     1. In your console, write "npm install discord.js fs nodemon" to install the packages we need, you may need administrator permissions on your computer to do this.
 
 5. Clone this repo, using github desktop or by typing these commands into your console
-    1. "cd <location you want to clone to>"
+    1. "cd <location you want to clone to.>"
     2. "git clone https://"
 
 6. Create your bot account
@@ -45,7 +45,7 @@
     1. To start, go back to your discord bot in the [dev portal](https://discord.com/developers/applications) and click "Bot"
     2. Copy your Token 
         1. Note: It's really important to keep this token secret, if anyone gets it, they can control your bot. If it does get leaked, make sure you regenerate it.
-    3. Go to src/Data/config.json in your project and replace "<your token>" with the actual token, Ex: "OTE2ODM5MjQwOTkyNjkwMTc3.Yav_FQ.ppYITZMtD3FLVke19O_CI0eKPI4" (keep the quotes and the comma at the end)
+    3. Go to src/Data/config.json in your project and replace "token" with the actual token, Ex: "OTE2ODM5MjQwOTkyNjkwMTc3.Yav_FQ.ppYITZMtD3FLVke19O_CI0eKPI4" (keep the quotes and the comma at the end)
     4. In that config file, replace the prefix to whatever you want to write before commands Ex: "!" (make sure you dont have any spaces, and keep the quotes)
     5. If you haven't already, rename the project folder to the name of your bot.
     6. To change the status of your bot, go in src/Events/ready.js and change the 6th line
@@ -63,15 +63,15 @@
 9. MOAR - If you would like to add more features to your bot (you will) these will help you.
 
     1. Adding more commands
-        -Duplicate one of your existing commands, I recommend hello.js because it is simple
-        -Name it the name of your command
-        -on line 4 change the name to what you want
-        -on line 5 change the desc to what you want in help command
-        -finally, change the code inside the run function to whatever you want the command to do
+        1. Duplicate one of your existing commands, I recommend hello.js because it is simple
+        2. Name it the name of your command
+        3. on line 4 change the name to what you want
+        4. on line 5 change the desc to what you want in help command
+        5. finally, change the code inside the run function to whatever you want the command to do
     2. Adding more functions
-        -Duplicate ready.js and remove the indented code
-        -on line 5, change "ready" to your event name and "(client)" to whatever you need from the event.
-        -add your code in the function
+        1. Duplicate ready.js and remove the indented code
+        2. on line 5, change "ready" to your event name and "(client)" to whatever you need from the event.
+        3. add your code in the function
     3. Help me i'm stuck 
         1. stack overflow
         2. google
